@@ -11,7 +11,7 @@
     private $type;
     private $extension;
     private $msg;
-    private $host = 'http://104.236.150.212/';
+    private $host = 'http://159.203.235.29/';
 
     function __construct($src, $data, $file) {
     	$this -> setDB($entId);

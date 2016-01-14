@@ -9,7 +9,7 @@ class MyAPI extends API {
 
     protected $User;
     private $db;
-    private $host = 'http://104.236.150.212/';
+    private $host = 'http://159.203.235.29/';
     private $ios_cert_path = 'cert/*.pem';
     private $ios_cert_pwd = 'pass';
     private $androidApiKey = 'AIzaSyDios94N5PZdisKUQxVnTVonbKQXwScvhE';

@@ -10,7 +10,7 @@ class ConDB {
     
         private $serverName = "localhost"; //serverName\instanceName
         private $userName = "root";
-        private $pass = "passforbelle";
+        private $pass = "insper289911";
         private $database = "belle_db";
         public $conn;
         public $flag_conn;

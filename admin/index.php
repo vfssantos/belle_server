@@ -17,7 +17,6 @@ $downloads = mysql_fetch_assoc(mysql_query("select count(distinct device) as cnt
 $loggedIns = mysql_fetch_assoc(mysql_query("select count(distinct oid) as cnt from user_sessions where loggedIn = '1'", $db->conn));
 ?>
 <!DOCTYPE html>
-<!-- saved from url=(0058)http://192.168.1.112/example/picturish/#/dashboard/albums/ -->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
